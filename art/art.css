@@ -12,6 +12,32 @@
     
 }
 
+.iuv{
+    background-image: linear-gradient(to right, rgb(131, 209, 235), rgb(31, 31, 170));
+}
+footer{
+    background-image: radial-gradient(rgb(255, 183, 50), rgb(131, 75, 55));
+}
+.nosotros{
+    background-image: linear-gradient(to left, rgb(218, 214, 214), rgb(122, 120, 120)) ;
+}
+
+.fotos{
+    background-image: radial-gradient(red, white);
+}
+
+.fotos img{
+    height: 150px;
+    transition: 3s;
+}
+
+.fotos img:hover{
+    height: 200px;
+}
+
+form{
+    background-image: linear-gradient(to right,rgb(67, 67, 214), blue);
+}
 
 
 .menu li{
