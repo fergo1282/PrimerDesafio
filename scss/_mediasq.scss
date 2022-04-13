@@ -1,0 +1,58 @@
+@media screen and (max-width: 480px){
+    
+    .inicio{
+       grid-template-columns: 1fr;
+       grid-template-rows: 0.2fr 1.5fr 0.1fr 0.1fr;
+       grid-template-areas: 
+       "titulo"
+       "indice"
+       "nosotros"
+       "footer" ;
+       grid-row-gap: 3px ;
+
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        background-color: coral;
+        align-items: stretch;
+}
+.head{
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+
+.iuv{
+    flex-wrap: wrap;
+}
+
+.nosotros{
+    flex-wrap: wrap;
+}
+
+.tf{
+   flex-wrap: wrap;
+}
+}
+
+
+@media screen and (max-width: 480px){
+    
+    .maps{
+       grid-template-columns: 1fr;
+       grid-template-rows: 0.2fr 1.5fr 0.1fr 0.1fr;
+       grid-template-areas: 
+       "titulo"
+       "mapas"
+       "footer" ;
+       grid-row-gap: 3px ;
+
+    }
+
+.mapas{
+    flex-wrap: wrap;
+}
+   
+}

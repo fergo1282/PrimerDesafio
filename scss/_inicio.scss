@@ -1,0 +1,33 @@
+.inicio{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.2fr 1.5fr 0.1fr 0.1fr;
+    grid-template-areas:
+    "titulo titulo titulo titulo"
+    "indice indice indice indice"
+    "nosotros nosotros nosotros nosotros"
+    "footer footer footer footer";
+    grid-row-gap: 3px;
+}
+
+.head{
+    grid-area: titulo;
+
+}
+
+.iuv{
+    grid-area: indice;
+}
+
+.nosotros{
+    grid-area: nosotros;
+}
+
+.tf{
+    grid-area: footer;
+}
+
+body{
+   
+    text-align: center;
+}

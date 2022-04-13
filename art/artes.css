@@ -1,0 +1,68 @@
+.inicio {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 0.2fr 1.5fr 0.1fr 0.1fr;
+  grid-template-areas: "titulo titulo titulo titulo" "indice indice indice indice" "nosotros nosotros nosotros nosotros" "footer footer footer footer";
+  grid-row-gap: 3px; }
+
+.head {
+  grid-area: titulo; }
+
+.iuv {
+  grid-area: indice; }
+
+.nosotros {
+  grid-area: nosotros; }
+
+.tf {
+  grid-area: footer; }
+
+body {
+  text-align: center; }
+
+.iuv {
+  background-image: linear-gradient(to right, #83d1eb, #1f1faa); }
+
+.nosotros {
+  background-image: linear-gradient(to left, #dad6d6, #7a7878); }
+
+.nos1 {
+  text-align: justify; }
+
+footer {
+  background-image: radial-gradient(#ffb732, #834b37); }
+
+.tf {
+  font-size: 20px; }
+  .tf li {
+    list-style-type: none; }
+
+@media screen and (max-width: 480px) {
+  .inicio {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1.5fr 0.1fr 0.1fr;
+    grid-template-areas: "titulo" "indice" "nosotros" "footer";
+    grid-row-gap: 3px; }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+    align-items: stretch; }
+  .head {
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .iuv {
+    flex-wrap: wrap; }
+  .nosotros {
+    flex-wrap: wrap; }
+  .tf {
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 480px) {
+  .maps {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1.5fr 0.1fr 0.1fr;
+    grid-template-areas: "titulo" "mapas" "footer";
+    grid-row-gap: 3px; }
+  .mapas {
+    flex-wrap: wrap; } }
