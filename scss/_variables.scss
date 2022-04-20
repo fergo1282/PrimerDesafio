@@ -1,0 +1,20 @@
+$redsoc: (
+        twitter: #00acee,
+        facebook: #3b5998,
+);
+
+@each $rs, $color in $redsoc{
+    .btn--#{$rs}{
+        background-color: $color;
+    }
+}
+
+@mixin flexi ($flex, $direction, $wrap){
+    display: $flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+}
+
+.n2{
+    @include flexi(flex,column, wrap )
+}
