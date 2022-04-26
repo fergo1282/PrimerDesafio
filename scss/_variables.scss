@@ -15,6 +15,8 @@ $redsoc: (
     flex-wrap: $wrap;
 }
 
+
+
 .n2{
     @include flexi(flex,column, wrap )
 }
