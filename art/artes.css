@@ -1,7 +1,8 @@
 .A1 {
   font-family: 'Times New Roman', Times, serif;
   color: black;
-  font-size: 25px; }
+  font-size: 25px;
+  text-decoration: underline; }
 
 .n2 {
   font-family: 'Times New Roman';
@@ -30,7 +31,8 @@ h1 {
 
 .A2 {
   padding: 20px;
-  font-family: 'Times New Roman'; }
+  font-family: 'Times New Roman';
+  text-decoration: underline; }
 
 .mapas {
   background-color: cornsilk; }
