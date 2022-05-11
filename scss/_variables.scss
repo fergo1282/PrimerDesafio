@@ -5,8 +5,46 @@
     flex-wrap: $wrap;
 }
 
+.A1{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 25px;
+}
+.n2{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+}
 
 
 .n2{
     @include flexi(flex,column, wrap )
+    
+}
+
+.fs{
+    text-decoration: underline;
+    padding: 20px;
+    font-family: 'Times New Roman';
+    background-color: cornsilk;
+}
+.fonos{
+    background-color: cornsilk;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    text-align: left;
+    background-color: cornsilk;
+   
+}
+.A2{
+    padding: 20px;
+    font-family: 'Times New Roman';
+    
+}
+.mapas{
+    background-color: cornsilk;
 }

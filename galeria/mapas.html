@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="subsecretaria, defensa, civil, Provincia Neuquen, Argentina">
     <meta name="description" content="Página oficial de la subsecretaria de Defensa Civil de la Provincia de Neuquén">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <title>Defensa Civil Neuquen Mapas</title>
 
 
@@ -17,12 +19,19 @@
         crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../art/artes.css">
+
+   <script>
+        $(document).ready(function () {
+          $('.head').load('../componentes/header.html');
+          $('.tf').load('../componentes/footer.html');
+        });
+      </script>
 </head>
 
 <body class="maps">
 
     <header class="head row">
-        <div class="col-sm-12 col-md-11 m-auto">
+        <!--<div class="col-sm-12 col-md-11 m-auto">
             <a href="../PrimerDesafio/index.html"><img class="img-fluid" src="../imagenes2/LogoMinisterio.PNG" alt="log"> </a>
 
 
@@ -52,20 +61,18 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="mapas.html">Mapas</a>
                             </li>
-                            <!--<li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                      </li>-->
+                           
                         </ul>
                     </div>
                 </div>
             </nav>
-        </div>
+        </div>-->
     </header>
 
 
     <section class="mapas row">
         <div class="col-sm-12 col-md-11 m-auto">
-            <p>Mapas Utiles de la Provincia de Neuquén</p>
+            <p class="A1">Mapas Utiles de la Provincia de Neuquén</p>
             <a target="_blank" href="../imagenes2/NQNPolitico.jpg"><img class="img-fluid" src="../imagenes2/NQNPolitico.jpg" alt=""></a>
             <a target="_blank" href="../imagenes2/NQNTuristico.jpg"><img class="img-fluid" src="../imagenes2/NQNTuristico.jpg" alt=""></a>
             <a target="_blank" href="../imagenes2/NQNVial2021.jpg"><img class="img-fluid" src="../imagenes2/NQNVial2021.jpg" alt=""></a>
@@ -73,15 +80,15 @@
         </div>
     </section>
 
+    
     <footer class="tf row">
-        <div class="col-sm-12 col-md-11 m-auto">
-            <div>
-                <a href="https://twitter.com/subsedcypc"><i class="bi bi-twitter"></i></a>
-                <a href="https://www.facebook.com/DefensaCivilNeuquen"><i class="bi bi-facebook"></i></a>
-            </div>
-        </div>
-    </footer>
-
+       <!-- <div class="col-sm-12 col-md-11 m-auto">
+          <div>
+            <a href="https://twitter.com/subsedcypc"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.facebook.com/DefensaCivilNeuquen"><i class="bi bi-facebook"></i></a>
+          </div>
+        </div>-->
+      </footer>
 
 
 

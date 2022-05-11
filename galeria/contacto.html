@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="subsecretaria, defensa, civil, Provincia Neuquen, Argentina">
     <meta name="description" content="Página oficial de la subsecretaria de Defensa Civil de la Provincia de Neuquén">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Defensa Civil Neuquen Contacto</title>
 
 
@@ -17,11 +18,18 @@
         crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../art/artes.css">
+
+   <script>
+        $(document).ready(function () {
+            $('.head').load('../componentes/header.html');
+          $('.tf').load('../componentes/footer.html');
+        });
+      </script>
 </head>
 
 <body>
     <header class="head row">
-        <div class="col-12">
+        <!--<div class="col-12">
             <a href="../PrimerDesafio/index.html"><img class="img-fluid" src="../imagenes2/LogoMinisterio.PNG" alt="log"></a>
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -53,15 +61,15 @@
                     </div>
                 </div>
             </nav>
-        </div>
+        </div>-->
 
     </header>
 
    
    
-   <div class="container mt-5">
+   <div class="container">
    
-    <h1>Contactate con nosotros</h1>
+    <h1 class="A2">Contactate con nosotros</h1>
     <form class="row g-3">
         <div class="col-md-6">
            <input type="text" class="form-control" placeholder="Nombre" required>
@@ -78,22 +86,24 @@
             <textarea class="form-control" placeholder="Consultas" id="" rows="5" required></textarea>
         </div>
         <div class="col-md-12">
-            <button type="submit" class="btn btn-primary">Enviar</button>
             
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        
         </div>
     </form>
 
 </div>
   
-
 <footer class="tf row">
-    <div class="col-sm-12 col-md-11 m-auto">
-        <div>
-            <a href="https://twitter.com/subsedcypc"><i class="bi bi-twitter"></i></a>
-            <a href="https://www.facebook.com/DefensaCivilNeuquen"><i class="bi bi-facebook"></i></a>
-        </div>
-    </div>
-</footer>
+    <!--<div class="col-sm-12 col-md-11 m-auto">
+      <div>
+        <a href="https://twitter.com/subsedcypc"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.facebook.com/DefensaCivilNeuquen"><i class="bi bi-facebook"></i></a>
+      </div>
+    </div>-->
+  </footer>
+
+ 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
